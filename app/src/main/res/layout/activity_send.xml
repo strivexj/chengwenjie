@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="To:"/>
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"/>
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Message:"/>
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"/>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:text="send"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_circle" />
+
+  </LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAllCaps="false"
+    android:id="@+id/notification"
+    android:layout_gravity="center"
+    android:text="Notification"/>
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textAllCaps="false"
+      android:id="@+id/tab"
+      android:layout_gravity="center"
+      android:text="Tab"/>
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/original"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Please input something you want to translate~!"/>
+    <TextView
+        android:id="@+id/translate"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        />
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="confirm"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_circle" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/start_service"
+          android:text="Start_Service"
+          android:textAllCaps="false"
+          android:background="@drawable/ic_play_arrow_white_36dp"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/stop_service"
+          android:text="Stop_Service"
+          android:textAllCaps="false"
+          android:layout_alignParentRight="true"
+          android:background="@drawable/ic_pause_circle_outline_white_36dp"/>
+    </RelativeLayout>
+
+  </LinearLayout>
+</LinearLayout>

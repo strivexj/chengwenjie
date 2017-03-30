@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CWJ</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_log">LogActivity</string>
+    <string name="title_activity_send">SendActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_base">BaseActivity</string>
+</resources>
